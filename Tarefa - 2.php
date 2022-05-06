@@ -10,7 +10,7 @@ function verificaPrimo($count)
     return 1;
 }
 
-function retornaNumeroPrimo($valorInicial, $valorFinal)
+function primos($valorInicial, $valorFinal)
 {
     for ($count = $valorInicial; $count <= $valorFinal; $count++) {
         if (verificaPrimo($count) == 1) {
@@ -19,4 +19,4 @@ function retornaNumeroPrimo($valorInicial, $valorFinal)
     }
 }
 
-echo retornaNumeroPrimo(1, 100);
+echo primos(1, 100);
